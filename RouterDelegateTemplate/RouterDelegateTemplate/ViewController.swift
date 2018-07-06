@@ -13,6 +13,7 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
+		appDelegate?.routerDelegate = self
 	}
 
 	override func didReceiveMemoryWarning() {
@@ -23,3 +24,20 @@ class ViewController: UIViewController {
 
 }
 
+private extension UIViewController {
+	
+	var appDelegate: AppDelegate? {
+		return UIApplication.shared.delegate as? AppDelegate
+	}
+	
+}
+
+extension UIViewController {
+	
+	var routerDelegate: RouterDelegate? {
+		
+		return appDelegate?.routerDelegate
+		
+	}
+	
+}

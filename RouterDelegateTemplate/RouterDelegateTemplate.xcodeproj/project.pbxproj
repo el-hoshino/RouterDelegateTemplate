@@ -12,6 +12,7 @@
 		79F88D2C20EF333D00508486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F88D2A20EF333D00508486 /* Main.storyboard */; };
 		79F88D2E20EF333F00508486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F88D2D20EF333F00508486 /* Assets.xcassets */; };
 		79F88D3120EF333F00508486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F88D2F20EF333F00508486 /* LaunchScreen.storyboard */; };
+		79F88D3920EF33AF00508486 /* ViewController+RouterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F88D3820EF33AF00508486 /* ViewController+RouterDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		79F88D2D20EF333F00508486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79F88D3020EF333F00508486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79F88D3220EF333F00508486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F88D3820EF33AF00508486 /* ViewController+RouterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+RouterDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				79F88D2620EF333D00508486 /* AppDelegate.swift */,
 				79F88D2820EF333D00508486 /* ViewController.swift */,
+				79F88D3820EF33AF00508486 /* ViewController+RouterDelegate.swift */,
 				79F88D2A20EF333D00508486 /* Main.storyboard */,
 				79F88D2D20EF333F00508486 /* Assets.xcassets */,
 				79F88D2F20EF333F00508486 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				79F88D2920EF333D00508486 /* ViewController.swift in Sources */,
 				79F88D2720EF333D00508486 /* AppDelegate.swift in Sources */,
+				79F88D3920EF33AF00508486 /* ViewController+RouterDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
