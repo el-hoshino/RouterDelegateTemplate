@@ -13,6 +13,8 @@
 		79F88D2E20EF333F00508486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F88D2D20EF333F00508486 /* Assets.xcassets */; };
 		79F88D3120EF333F00508486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F88D2F20EF333F00508486 /* LaunchScreen.storyboard */; };
 		79F88D3920EF33AF00508486 /* ViewController+RouterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F88D3820EF33AF00508486 /* ViewController+RouterDelegate.swift */; };
+		79F88D3B20EF350300508486 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F88D3A20EF350300508486 /* RootVC.swift */; };
+		79F88D3D20EF361500508486 /* ChildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F88D3C20EF361500508486 /* ChildVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		79F88D3020EF333F00508486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79F88D3220EF333F00508486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79F88D3820EF33AF00508486 /* ViewController+RouterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+RouterDelegate.swift"; sourceTree = "<group>"; };
+		79F88D3A20EF350300508486 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		79F88D3C20EF361500508486 /* ChildVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				79F88D2620EF333D00508486 /* AppDelegate.swift */,
 				79F88D2820EF333D00508486 /* ViewController.swift */,
 				79F88D3820EF33AF00508486 /* ViewController+RouterDelegate.swift */,
+				79F88D3A20EF350300508486 /* RootVC.swift */,
+				79F88D3C20EF361500508486 /* ChildVC.swift */,
 				79F88D2A20EF333D00508486 /* Main.storyboard */,
 				79F88D2D20EF333F00508486 /* Assets.xcassets */,
 				79F88D2F20EF333F00508486 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F88D3D20EF361500508486 /* ChildVC.swift in Sources */,
+				79F88D3B20EF350300508486 /* RootVC.swift in Sources */,
 				79F88D2920EF333D00508486 /* ViewController.swift in Sources */,
 				79F88D2720EF333D00508486 /* AppDelegate.swift in Sources */,
 				79F88D3920EF33AF00508486 /* ViewController+RouterDelegate.swift in Sources */,
