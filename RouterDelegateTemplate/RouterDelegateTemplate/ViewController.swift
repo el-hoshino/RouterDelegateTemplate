@@ -15,6 +15,11 @@ class ViewController: UIViewController {
 		// Do any additional setup after loading the view, typically from a nib.
 		appDelegate?.routerDelegate = self
 	}
+	
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
+		routerDelegate?.viewController(self, needsTransitionWith: nil)
+	}
 
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
